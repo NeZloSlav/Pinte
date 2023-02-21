@@ -42,6 +42,7 @@ namespace Pinte
 
             cmbMode.ItemsSource = listMode;
             
+            cmbMode.SelectedIndex = 0;
         }
 
         private void btnMenuHide_Click(object sender, RoutedEventArgs e)
